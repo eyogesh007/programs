@@ -34,3 +34,18 @@ int can(int a){
     return 1;
     return 0;
 }
+
+
+susets-
+print("Hello world")
+def sub(a,i,s):
+    if(i==len(a)):
+        return
+    else:
+        sub(a,i+1,s)
+        s=s+a[i]
+        print(s)
+        sub(a,i+1,s)
+a='abc'
+#a=[1,2,3]
+sub(a,0,'')
